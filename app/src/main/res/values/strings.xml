@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bihar Tour Guide</string>
+    <string name="str_events">Events</string>
+    <string name="str_restaurants">Restaurants</string>
+    <string name="str_historical">Historical Places</string>
+    <string name="str_landmarks">Landmarks</string>
+</resources>
