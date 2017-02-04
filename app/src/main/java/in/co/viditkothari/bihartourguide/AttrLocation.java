@@ -4,7 +4,7 @@ package in.co.viditkothari.bihartourguide;
  * Created by viditkothari on 29-Jan-17.
  */
 
-public class AttrLocation{
+public class AttrLocation {
     double mLat;
     double mLong;
     String mShortText;

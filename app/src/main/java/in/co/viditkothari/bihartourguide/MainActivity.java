@@ -11,13 +11,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final Intent i=new Intent(MainActivity.this,Listing.class);
+        final Intent i = new Intent(MainActivity.this, Listing.class);
 
 
         findViewById(R.id.btn_events).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                i.putExtra(TheConstants.listType,TheConstants.EVENTS);
+                i.putExtra(TheConstants.listType, TheConstants.EVENTS);
                 startActivity(i);
             }
         });
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_restaurants).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                i.putExtra(TheConstants.listType,TheConstants.RESTAURANTS);
+                i.putExtra(TheConstants.listType, TheConstants.RESTAURANTS);
                 startActivity(i);
             }
         });
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_historicalplaces).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                i.putExtra(TheConstants.listType,TheConstants.HISTORICAL);
+                i.putExtra(TheConstants.listType, TheConstants.HISTORICAL);
                 startActivity(i);
             }
         });
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_landmarks).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                i.putExtra(TheConstants.listType,TheConstants.LANDMARKS);
+                i.putExtra(TheConstants.listType, TheConstants.LANDMARKS);
                 startActivity(i);
             }
         });

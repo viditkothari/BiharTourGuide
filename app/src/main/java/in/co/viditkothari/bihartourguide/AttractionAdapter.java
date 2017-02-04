@@ -14,11 +14,12 @@ import java.util.ArrayList;
  * Created by viditkothari on 29-Jan-17.
  */
 
-public class AttractionAdapter extends ArrayAdapter<Attraction>  {
+public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
-    /** Resource ID for the background color for this list of Attractions */
+    /**
+     * Resource ID for the background color for this list of Attractions
+     */
     // private int mColorResourceId;
-
     public AttractionAdapter(Context context, ArrayList<Attraction> Attractions, int colorResourceId) {
         super(context, 0, Attractions);
         // mColorResourceId = colorResourceId;
@@ -31,12 +32,12 @@ public class AttractionAdapter extends ArrayAdapter<Attraction>  {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.attraction_list_item, parent, false);
         }
 
-        ImageView imgv_attr_image = (ImageView)convertView.findViewById(R.id.attr_image);
-        TextView tv_attr_name = (TextView)convertView.findViewById(R.id.attr_name);
-        TextView tv_attr_date = (TextView)convertView.findViewById(R.id.attr_date);
-        TextView tv_attr_location = (TextView)convertView.findViewById(R.id.attr_location);
-        TextView tv_attr_owner_organiser = (TextView)convertView.findViewById(R.id.attr_owner_organiser);
-        TextView tv_attr_description = (TextView)convertView.findViewById(R.id.attr_description);
+        ImageView imgv_attr_image = (ImageView) convertView.findViewById(R.id.attr_image);
+        TextView tv_attr_name = (TextView) convertView.findViewById(R.id.attr_name);
+        TextView tv_attr_date = (TextView) convertView.findViewById(R.id.attr_date);
+        TextView tv_attr_location = (TextView) convertView.findViewById(R.id.attr_location);
+        TextView tv_attr_owner_organiser = (TextView) convertView.findViewById(R.id.attr_owner_organiser);
+        TextView tv_attr_description = (TextView) convertView.findViewById(R.id.attr_description);
 
         // Get the {@link Attraction} object located at this position in the list
         Attraction attraction = getItem(position);

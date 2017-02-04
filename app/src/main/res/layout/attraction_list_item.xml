@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -20,58 +19,58 @@
             android:id="@+id/attr_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:layout_alignParentLeft="true"
             android:text="@string/listitem_name"
-            android:layout_alignParentLeft="true"/>
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/attr_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:text="@string/listitem_date"
+            android:layout_alignBottom="@id/attr_name"
             android:layout_alignParentRight="true"
-            android:layout_alignBottom="@id/attr_name"/>
+            android:text="@string/listitem_date"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/attr_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="4dp"
-            android:paddingBottom="4dp"
-            android:textSize="14sp"
-            android:text="@string/listitem_loc"
             android:layout_alignParentLeft="true"
-            android:layout_below="@id/attr_name"/>
+            android:layout_below="@id/attr_name"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/listitem_loc"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/attr_owner_organiser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="4dp"
-            android:paddingBottom="4dp"
-            android:textSize="14sp"
-            android:text="@string/listitem_own"
             android:layout_alignParentLeft="true"
-            android:layout_below="@id/attr_location"/>
+            android:layout_below="@id/attr_location"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/listitem_own"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/attr_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="4dp"
-            android:paddingBottom="4dp"
-            android:textSize="14sp"
-            android:text="@string/listitem_desc"
             android:layout_alignParentLeft="true"
-            android:layout_below="@id/attr_owner_organiser"/>
+            android:layout_below="@id/attr_owner_organiser"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/listitem_desc"
+            android:textSize="14sp" />
     </RelativeLayout>
 
     <ImageView
         android:layout_width="320dp"
         android:layout_height="1dp"
-        android:background="#BBB"
         android:layout_gravity="center"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:background="#BBB" />
 
 </LinearLayout>

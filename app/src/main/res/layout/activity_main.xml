@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="in.co.viditkothari.bihartourguide.MainActivity"
     android:orientation="vertical"
-    android:weightSum="4">
+    android:weightSum="4"
+    tools:context="in.co.viditkothari.bihartourguide.MainActivity">
 
     <TextView
         android:id="@+id/btn_events"
@@ -15,39 +14,42 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/colorEvent"
-        android:textColor="@android:color/white"
-        android:textSize="20sp"
         android:gravity="center"
-        android:text="@string/str_events" />
+        android:text="@string/str_events"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
     <TextView
         android:id="@+id/btn_restaurants"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/colorRestaurant"
-        android:textColor="@android:color/white"
-        android:textSize="20sp"
         android:gravity="center"
-        android:text="@string/str_restaurants" />
+        android:text="@string/str_restaurants"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
     <TextView
         android:id="@+id/btn_historicalplaces"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/colorHistorical"
-        android:textColor="@android:color/white"
-        android:textSize="20sp"
         android:gravity="center"
-        android:text="@string/str_historical" />
+        android:text="@string/str_historical"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
     <TextView
         android:id="@+id/btn_landmarks"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/colorLandmarks"
-        android:textColor="@android:color/white"
-        android:textSize="20sp"
         android:gravity="center"
-        android:text="@string/str_landmarks" />
+        android:text="@string/str_landmarks"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
 
 </LinearLayout>

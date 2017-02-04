@@ -51,7 +51,7 @@ public class Attraction {
     }
 
     public String getmOwner_or_organiser() {
-        if(TextUtils.isEmpty(mOwner_or_organiser))
+        if (TextUtils.isEmpty(mOwner_or_organiser))
             return " ";
         return mOwner_or_organiser;
     }
@@ -62,7 +62,7 @@ public class Attraction {
 
     public String getmDate() {  // Date is converted to String in the Attraction class itself
         String x = " ";
-        if(mDate != null)
+        if (mDate != null)
             x = (new SimpleDateFormat("dd MMM, yyyy")).format(mDate);
         return x;
     }
