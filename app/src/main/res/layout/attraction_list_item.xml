@@ -20,16 +20,16 @@
             android:id="@+id/attr_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="Name"
+            android:textSize="20sp"
+            android:text="@string/listitem_name"
             android:layout_alignParentLeft="true"/>
 
         <TextView
             android:id="@+id/attr_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
-            android:text="01 January, 2017"
+            android:textSize="14sp"
+            android:text="@string/listitem_date"
             android:layout_alignParentRight="true"
             android:layout_alignBottom="@id/attr_name"/>
 
@@ -39,8 +39,8 @@
             android:layout_height="wrap_content"
             android:paddingTop="4dp"
             android:paddingBottom="4dp"
-            android:textSize="14dp"
-            android:text="Location"
+            android:textSize="14sp"
+            android:text="@string/listitem_loc"
             android:layout_alignParentLeft="true"
             android:layout_below="@id/attr_name"/>
 
@@ -50,8 +50,8 @@
             android:layout_height="wrap_content"
             android:paddingTop="4dp"
             android:paddingBottom="4dp"
-            android:textSize="14dp"
-            android:text="Owner"
+            android:textSize="14sp"
+            android:text="@string/listitem_own"
             android:layout_alignParentLeft="true"
             android:layout_below="@id/attr_location"/>
 
@@ -61,11 +61,10 @@
             android:layout_height="wrap_content"
             android:paddingTop="4dp"
             android:paddingBottom="4dp"
-            android:textSize="14dp"
-            android:text="Description"
+            android:textSize="14sp"
+            android:text="@string/listitem_desc"
             android:layout_alignParentLeft="true"
             android:layout_below="@id/attr_owner_organiser"/>
-
     </RelativeLayout>
 
     <ImageView

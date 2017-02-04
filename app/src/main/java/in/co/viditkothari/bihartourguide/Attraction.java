@@ -18,31 +18,6 @@ public class Attraction {
     private static final int NO_IMAGE_PROVIDED = -1;
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    /*// Inner Class for storing Location value
-    private class AttrLocation{
-        double mLat;
-        double mLong;
-        String mShortText;
-
-        public AttrLocation(double mLat, double mLong, String mShortText) {
-            this.mLat = mLat;
-            this.mLong = mLong;
-            this.mShortText = mShortText;
-        }
-
-        public double getmLat() {
-            return mLat;
-        }
-
-        public double getmLong() {
-            return mLong;
-        }
-
-        public String getmShortText() {
-            return mShortText;
-        }
-    }*/
-
     public Attraction(String mAttrName, AttrLocation mAttrlocation, String mOwner_or_organiser, String mDescription, Date mDate, int mImageResourceId) {
         this.mAttrName = mAttrName;
         this.mAttrlocation = mAttrlocation;

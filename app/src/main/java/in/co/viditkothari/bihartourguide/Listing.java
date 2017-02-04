@@ -52,32 +52,33 @@ public class Listing extends AppCompatActivity {
     }
 
     private ArrayList<Attraction> insertEvents(){
-        arrListAttractions.add(new Attraction("Jagoinvestor Investors Bootcamp",new AttrLocation(27.03,43.5,"Hotel Maurya"),"Jago Investors","Jagoinvestor Investors Bootcamp is organized for all the investors across Bihar",new Date(1488106200000L),R.drawable.jagoinvestor));
-        arrListAttractions.add(new Attraction("Glam Fashion Week",new AttrLocation(27.03,43.5,"S.K. Memorial"),"Fashion Club, Bihar","Fashion Week in Patna",new Date(1492474200000L),R.drawable.fashion_week));
-        arrListAttractions.add(new Attraction("Sonepur Fair",new AttrLocation(27.03,43.5,"Sonepur"),"Govt. of Bihar","Fest / Mela of all kinds of products",new Date(1498474200000L),R.drawable.sonepur_fair));
+        arrListAttractions.add(new Attraction(getString(R.string.evnt_maurya),new AttrLocation(27.03,43.5,getString(R.string.evnt_maurya_loc)),getString(R.string.evnt_maurya_own_org),getString(R.string.evnt_maurya_desc),new Date(1488106200000L),R.drawable.jagoinvestor));
+        arrListAttractions.add(new Attraction(getString(R.string.evnt_fashion),new AttrLocation(27.03,43.5,getString(R.string.evnt_fashion_loc)),getString(R.string.evnt_fashion_own_org),getString(R.string.evnt_fashion_desc),new Date(1492474200000L),R.drawable.fashion_week));
+        arrListAttractions.add(new Attraction(getString(R.string.evnt_sonepurMela),new AttrLocation(27.03,43.5,getString(R.string.evnt_sonepur_loc)),getString(R.string.evnt_sonepur_own_org),getString(R.string.evnt_sonepur_desc),new Date(1498474200000L),R.drawable.sonepur_fair));
         return arrListAttractions;
     }
 
     private ArrayList<Attraction> insertHistoricalPlaces(){
-        arrListAttractions.add(new Attraction("Nalanda University",new AttrLocation(27.03,43.5,"Nalanda"),"Vikramaditya","A world renowned university fom ancient times",R.drawable.nalanda_university));
-        arrListAttractions.add(new Attraction("Jain Jal Mandir",new AttrLocation(27.03,43.5,"Pavapuri"),"Jain Community","Place where Jain Tirthankar - Lord Mahaveer breathed his last",R.drawable.jalmandir));
-        arrListAttractions.add(new Attraction("Takht Sri Patna Sahib",new AttrLocation(27.03,43.5,"Patna City"),"Sikh Community","In memory of one of the five Sikh guru - Sri Guru Govind Ji Maharaj",R.drawable.patna_sahib));
+        arrListAttractions.add(new Attraction(getString(R.string.hist_nalanda),new AttrLocation(27.03,43.5,getString(R.string.hist_nalanda_loc)),getString(R.string.hist_nalanda_own_org),getString(R.string.hist_nalanda_desc),R.drawable.nalanda_university));
+        arrListAttractions.add(new Attraction(getString(R.string.hist_jalmandir),new AttrLocation(27.03,43.5,getString(R.string.hist_jalmandir_loc)),getString(R.string.hist_jalmandir_own_org),getString(R.string.hist_jalmandir_desc),R.drawable.jalmandir));
+        arrListAttractions.add(new Attraction(getString(R.string.hist_takht),new AttrLocation(27.03,43.5,getString(R.string.hist_takht_loc)),getString(R.string.hist_takht_own_org),getString(R.string.hist_takht_desc),R.drawable.patna_sahib));
         return arrListAttractions;
     }
 
     private ArrayList<Attraction> insertLandmarks(){
-        arrListAttractions.add(new Attraction("Mahabodhi Temple",new AttrLocation(28.03,43.5,"Gaya"),"In memory of Gautam Buddha",R.drawable.mahabodhi));
-        arrListAttractions.add(new Attraction("Bodhi Tree",new AttrLocation(50.03,43.5,"Gaya"),"From the age of Lord Gautam Buddha",R.drawable.bodhi_tree));
-        arrListAttractions.add(new Attraction("Golghar",new AttrLocation(21.03,43.5,"Patna Ghat Area"),"made by the British during famine to stock forage",R.drawable.golghar));
-        arrListAttractions.add(new Attraction("Patna Museum",new AttrLocation(22.03,43.5,"Kotwali, Patna"),"One of the oldest museum in Eastern India",R.drawable.patna_museum));
+        arrListAttractions.add(new Attraction(getString(R.string.lndm_mahabodhitemple),new AttrLocation(28.03,43.5,getString(R.string.lndm_mahabodhitemple_loc)),getString(R.string.lndm_mahabodhitemple_desc),R.drawable.mahabodhi));
+        arrListAttractions.add(new Attraction(getString(R.string.lndm_bodhitree),new AttrLocation(50.03,43.5,getString(R.string.lndm_bodhitree_loc)),getString(R.string.lndm_bodhitree_desc),R.drawable.bodhi_tree));
+        arrListAttractions.add(new Attraction(getString(R.string.lndm_golghar),new AttrLocation(21.03,43.5,getString(R.string.lndm_golghar_loc)),getString(R.string.lndm_golghar_desc),R.drawable.golghar));
+        arrListAttractions.add(new Attraction(getString(R.string.lndm_patnamuseum),new AttrLocation(22.03,43.5,getString(R.string.lndm_patnamuseum_loc)),getString(R.string.lndm_patnamuseum_desc),R.drawable.patna_museum));
         return arrListAttractions;
     }
 
     private ArrayList<Attraction> insertRestaurants(){
-        arrListAttractions.add(new Attraction("Basant Vihar",new AttrLocation(27.03,43.5,"Dak Bunglow"),"Kumar Goyal","One of the premium restaurants in Bihar",R.drawable.basant_vihar));
-        arrListAttractions.add(new Attraction("Rajasthan Restaurant",new AttrLocation(27.03,43.5,"Fraser Road"),"Abhinav Prakash","One of the oldest restaurants in Patna",R.drawable.rajasthan));
-        arrListAttractions.add(new Attraction("Sagar Ratna",new AttrLocation(27.03,43.5,"Fraser Road"),"Narayanan Shivakumar","Best vegetarian restaurant in Patna",R.drawable.sagar_ratna));
-        arrListAttractions.add(new Attraction("Yellow Chilly",new AttrLocation(27.03,43.5,"Bailey Road"),"Sanjeev Kapoor","One of the prestigious chains of restaurants",R.drawable.yellow_chilli));
+        arrListAttractions.add(new Attraction(getString(R.string.restr_basantvihar),new AttrLocation(27.03,43.5,getString(R.string.restr_basantvihar_loc)),getString(R.string.restr_basantvihar_own_org),getString(R.string.restr_basantvihar_desc),R.drawable.basant_vihar));
+        arrListAttractions.add(new Attraction(getString(R.string.restr_rajasthan),new AttrLocation(27.03,43.5,getString(R.string.restr_rajasthan_loc)),getString(R.string.restr_rajasthan_own_org),getString(R.string.restr_rajasthan_desc),R.drawable.rajasthan));
+        arrListAttractions.add(new Attraction(getString(R.string.restr_sagarratna),new AttrLocation(27.03,43.5,getString(R.string.restr_sagarratna_loc)),getString(R.string.restr_sagarratna_own_org),getString(R.string.restr_sagarratna_desc),R.drawable.sagar_ratna));
+        arrListAttractions.add(new Attraction(getString(R.string.restr_yellowchilly),new AttrLocation(27.03,43.5,getString(R.string.restr_yellowchilly_loc)),getString(R.string.restr_yellowchilly_own_org),getString(R.string.restr_yellowchilly_desc),R.drawable.yellow_chilli));
         return arrListAttractions;
     }
+
 }

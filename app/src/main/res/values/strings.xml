@@ -4,4 +4,77 @@
     <string name="str_restaurants">Restaurants</string>
     <string name="str_historical">Historical Places</string>
     <string name="str_landmarks">Landmarks</string>
+
+    <string name="evnt_maurya">Jagoinvestor Investors Bootcamp</string>
+    <string name="evnt_maurya_loc">Hotel Maurya</string>
+    <string name="evnt_maurya_own_org">Jago Investors</string>
+    <string name="evnt_maurya_desc">Jagoinvestor Investors Bootcamp is organized for all the investors across Bihar</string>
+
+    <string name="evnt_fashion">  </string>
+    <string name="evnt_fashion_loc">S.K. Memorial</string>
+    <string name="evnt_fashion_own_org">Fashion Club, Bihar</string>
+    <string name="evnt_fashion_desc">Fashion Week in Patna</string>
+
+    <string name="evnt_sonepurMela">  </string>
+    <string name="evnt_sonepur_loc">Sonepur</string>
+    <string name="evnt_sonepur_own_org">Govt. of Bihar</string>
+    <string name="evnt_sonepur_desc">Fest / Mela of all kinds of products</string>
+
+    <string name="hist_nalanda">Nalanda University</string>
+    <string name="hist_nalanda_loc">Nalanda</string>
+    <string name="hist_nalanda_own_org">Vikramaditya</string>
+    <string name="hist_nalanda_desc">A world renowned university fom ancient times</string>
+
+    <string name="hist_jalmandir">Jain Jal Mandir</string>
+    <string name="hist_jalmandir_loc">Pavapuri</string>
+    <string name="hist_jalmandir_own_org">Jain Community</string>
+    <string name="hist_jalmandir_desc">Place where Jain Tirthankar - Lord Mahaveer breathed his last</string>
+
+    <string name="hist_takht">Takht Sri Patna Sahib</string>
+    <string name="hist_takht_loc">Patna City</string>
+    <string name="hist_takht_own_org">Sikh Community</string>
+    <string name="hist_takht_desc">In memory of one of the five Sikh guru - Sri Guru Govind Ji Maharaj</string>
+
+    <string name="restr_basantvihar">Basant Vihar</string>
+    <string name="restr_basantvihar_loc">Dak Bunglow</string>
+    <string name="restr_basantvihar_own_org">Kumar Goyal</string>
+    <string name="restr_basantvihar_desc">One of the premium restaurants in Bihar</string>
+
+    <string name="restr_rajasthan">Rajasthan Restaurant</string>
+    <string name="restr_rajasthan_loc">Fraser Road</string>
+    <string name="restr_rajasthan_own_org">Abhinav Prakash</string>
+    <string name="restr_rajasthan_desc">One of the oldest restaurants in Patna</string>
+
+    <string name="restr_sagarratna">Sagar Ratna</string>
+    <string name="restr_sagarratna_loc">Fraser Road</string>
+    <string name="restr_sagarratna_own_org">Narayanan Shivakumar</string>
+    <string name="restr_sagarratna_desc">Best vegetarian restaurant in Patna</string>
+
+    <string name="restr_yellowchilly">Yellow Chilly</string>
+    <string name="restr_yellowchilly_loc">Bailey Road</string>
+    <string name="restr_yellowchilly_own_org">Sanjeev Kapoor</string>
+    <string name="restr_yellowchilly_desc">One of the prestigious chains of restaurants</string>
+
+    <string name="lndm_mahabodhitemple">Mahabodhi Temple</string>
+    <string name="lndm_mahabodhitemple_loc">Gaya</string>
+    <string name="lndm_mahabodhitemple_desc">In memory of Gautam Buddha</string>
+
+    <string name="lndm_bodhitree">Bodhi Tree</string>
+    <string name="lndm_bodhitree_loc">Gaya</string>
+    <string name="lndm_bodhitree_desc">From the age of Lord Gautam Buddha</string>
+
+    <string name="lndm_golghar">Golghar</string>
+    <string name="lndm_golghar_loc">Patna Ghat Area</string>
+    <string name="lndm_golghar_desc">made by the British during famine to stock forage</string>
+
+    <string name="lndm_patnamuseum">Patna Museum</string>
+    <string name="lndm_patnamuseum_loc">Kotwali, Patna</string>
+    <string name="lndm_patnamuseum_desc">One of the oldest museum in Eastern India</string>
+
+    <string name="listitem_name">Name</string>
+    <string name="listitem_date">Date</string>
+    <string name="listitem_loc">Location</string>
+    <string name="listitem_own">Owner / Organiser</string>
+    <string name="listitem_desc">Description</string>
+
 </resources>
